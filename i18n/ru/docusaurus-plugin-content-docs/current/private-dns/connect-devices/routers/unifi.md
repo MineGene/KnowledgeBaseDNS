@@ -62,5 +62,5 @@ Use these instructions if your UniFi router does not support the DNS-over-HTTPS 
     - IPv6: `2a10:50c0:0:0:0:0:ded:ff` и `2a10:50c0:0:0:0:0:dad:ff`
 10. Сохраните настройки.
 11. Привяжите свой IP (или ваш выделенный IP, если у вас есть подписка Team).
-    - [Dedicated IPs](private-dns/connect-devices/other-options/dedicated-ip.md)
-    - [Linked IPs](private-dns/connect-devices/other-options/linked-ip.md)
+     - [Dedicated IPs](private-dns/connect-devices/other-options/dedicated-ip.md)
+     - [Linked IPs](private-dns/connect-devices/other-options/linked-ip.md)

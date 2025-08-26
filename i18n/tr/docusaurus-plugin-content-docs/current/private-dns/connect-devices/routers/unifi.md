@@ -62,5 +62,5 @@ Use these instructions if your UniFi router does not support the DNS-over-HTTPS 
     - IPv6: `2a10:50c0:0:0:0:0:ded:ff` ve `2a10:50c0:0:0:0:0:dad:ff`
 10. Ayarları kaydedin.
 11. IP'nizi (veya bir Takım aboneliğiniz varsa özel IP'nizi) bağlayın.
-    - [Özel IP'ler](private-dns/connect-devices/other-options/dedicated-ip.md)
-    - [Bağlı IP'ler](private-dns/connect-devices/other-options/linked-ip.md)
+     - [Özel IP'ler](private-dns/connect-devices/other-options/dedicated-ip.md)
+     - [Bağlı IP'ler](private-dns/connect-devices/other-options/linked-ip.md)

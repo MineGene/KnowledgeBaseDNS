@@ -14,11 +14,11 @@ sidebar_position: 2
 
 2. Enter the router’s password.
 
-    :::note Важно
+   :::note Важно
 
-    Если пароль неизвестен, его можно сбросить, нажав кнопку на роутере, однако это также сбросит роутер до заводских настроек. Некоторые модели имеют собственное приложение для управления, которое должно быть уже установлено на вашем компьютере.
+   Если пароль неизвестен, его можно сбросить, нажав кнопку на роутере, однако это также сбросит роутер до заводских настроек. Некоторые модели имеют собственное приложение для управления, которое должно быть уже установлено на вашем компьютере.
 
-    :::
+   :::
 
 3. Find where DNS settings are located in the router’s admin console. Измените перечисленные DNS-адреса на следующие:
     - IPv4: `94.140.14.49` и `94.140.14.59`
@@ -28,5 +28,5 @@ sidebar_position: 2
 
 5. Привяжите свой IP (или ваш выделенный IP, если у вас есть подписка Team).
 
-- [Выделенные IP-адреса](/private-dns/connect-devices/other-options/dedicated-ip.md)
-- [Привязанные IP-адреса](/private-dns/connect-devices/other-options/linked-ip.md)
+ - [Выделенные IP-адреса](/private-dns/connect-devices/other-options/dedicated-ip.md)
+ - [Привязанные IP-адреса](/private-dns/connect-devices/other-options/linked-ip.md)

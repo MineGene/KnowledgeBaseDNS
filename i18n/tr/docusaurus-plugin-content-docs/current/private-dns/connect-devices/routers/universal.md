@@ -14,11 +14,11 @@ sidebar_position: 2
 
 2. Enter the router’s password.
 
-    :::note Önemli
+   :::note Önemli
 
-    Parolanızı bilmiyorsanız, genellikle yönlendirici üzerindeki bir düğmeye basarak parolanızı sıfırlayabilirsiniz; bu aynı zamanda yönlendiriciyi fabrika ayarlarına da sıfırlar. Some models have a dedicated management application, which should already be installed on your computer.
+   Parolanızı bilmiyorsanız, genellikle yönlendirici üzerindeki bir düğmeye basarak parolanızı sıfırlayabilirsiniz; bu aynı zamanda yönlendiriciyi fabrika ayarlarına da sıfırlar. Some models have a dedicated management application, which should already be installed on your computer.
 
-    :::
+   :::
 
 3. Find where DNS settings are located in the router’s admin console. Listelenen DNS adreslerini aşağıdaki adreslerle değiştirin:
     - IPv4: `94.140.14.49` ve `94.140.14.59`
@@ -28,5 +28,5 @@ sidebar_position: 2
 
 5. IP'nizi (veya bir Takım aboneliğiniz varsa özel IP'nizi) bağlayın.
 
-- [Özel IP'ler](/private-dns/connect-devices/other-options/dedicated-ip.md)
-- [Bağlı IP'ler](/private-dns/connect-devices/other-options/linked-ip.md)
+ - [Özel IP'ler](/private-dns/connect-devices/other-options/dedicated-ip.md)
+ - [Bağlı IP'ler](/private-dns/connect-devices/other-options/linked-ip.md)

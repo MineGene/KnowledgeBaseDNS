@@ -22,7 +22,7 @@ If necessary: Configure DNS-over-TLS on ASUS, install the [ASUS Merlin firmware]
     - `94.140.14.49` ve `94.140.14.59`
 9. _TLS Bağlantı Noktası_ için 853 girin.
 10. TLS Ana Makine Adı\* alanına Özel AdGuard DNS sunucu adresini girin:
-    - `{Your_Device_ID}.d.adguard-dns.com`
+     - `{Your_Device_ID}.d.adguard-dns.com`
 11. Sayfanın en altına gidin ve _Uygula_ öğesine tıklayın.
 
 ## Yönlendirici yönetici panelini kullanma

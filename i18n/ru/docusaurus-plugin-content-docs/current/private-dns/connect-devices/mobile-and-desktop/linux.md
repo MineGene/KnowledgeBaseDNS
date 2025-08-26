@@ -8,7 +8,7 @@ sidebar_position: 6
 1. Перейдите в раздел _Панель управления_ и нажмите _Подключить новое устройство_.
 2. В выпадающем меню _Тип устройства_ выберите Linux.
 3. Назовите устройство.
-    ![Подключение устройства \*mobile_border](https://cdn.adtidy.org/content/kb/dns/private/new_dns/connect/choose_linux.png)
+   ![Подключение устройства \*mobile_border](https://cdn.adtidy.org/content/kb/dns/private/new_dns/connect/choose_linux.png)
 
 ## Использовать AdGuard DNS Client
 
@@ -42,8 +42,8 @@ AdGuard DNS Client — это кроссплатформенная консол�
     - `2a10:50c0:0:0:0:0:dad:ff`
 10. Нажмите _Применить_.
 11. Привяжите свой IP-адрес (или выделенный IP, если у вас есть Командная подписка):
-    - [Выделенные IP-адреса](/private-dns/connect-devices/other-options/dedicated-ip.md)
-    - [Привязанные IP-адреса](/private-dns/connect-devices/other-options/linked-ip.md)
+     - [Выделенные IP-адреса](/private-dns/connect-devices/other-options/dedicated-ip.md)
+     - [Привязанные IP-адреса](/private-dns/connect-devices/other-options/linked-ip.md)
 
 ## Настройте вручную на Debian (требуется привязанный или выделенный IP-адрес)
 
@@ -61,38 +61,38 @@ AdGuard DNS Client — это кроссплатформенная консол�
 10. Нажмите _Enter_.
 11. Закройте Терминал.
 12. Привяжите свой IP-адрес (или выделенный IP, если у вас есть Командная подписка):
-    - [Выделенные IP-адреса](/private-dns/connect-devices/other-options/dedicated-ip.md)
-    - [Привязанные IP-адреса](/private-dns/connect-devices/other-options/linked-ip.md)
+     - [Выделенные IP-адреса](/private-dns/connect-devices/other-options/dedicated-ip.md)
+     - [Привязанные IP-адреса](/private-dns/connect-devices/other-options/linked-ip.md)
 
 ## Использовать dnsmasq
 
 1. Установите dnsmasq, используя следующие команды:
 
-    `sudo apt updatesudo`
+   `sudo apt updatesudo`
 
-    `apt install`
+   `apt install`
 
-    `dnsmasqsudo nano /etc/dnsmasq.conf`
+   `dnsmasqsudo nano /etc/dnsmasq.conf`
 
 2. Используйте следующие команды в dnsmasq.conf:
 
-    `no-resolv`
+   `no-resolv`
 
-    `bogus-priv`
+   `bogus-priv`
 
-    `strict-order`
+   `strict-order`
 
-    `server=94.140.14.49`
+   `server=94.140.14.49`
 
-    `server=94.140.14.59`
+   `server=94.140.14.59`
 
-    `port=5353`
+   `port=5353`
 
-    `add-cpe-id={Your_Device_ID}`
+   `add-cpe-id={Your_Device_ID}`
 
 3. Перезапустите сервис dnsmasq:
 
-    `sudo service dnsmasq restart`
+   `sudo service dnsmasq restart`
 
 Готово! Ваше устройство успешно подключено к AdGuard DNS.
 
@@ -128,5 +128,5 @@ dig @94.140.14.49 'www.example.com' A IN +ednsopt=65074:3031323334353637
 
 Если вы предпочитаете не использовать дополнительное программное обеспечение для настройки DNS, вы можете выбрать незашифрованный DNS. У вас есть два варианта: использовать связанные IP-адреса или выделенные IP-адреса:
 
-- [Выделенные IP-адреса](/private-dns/connect-devices/other-options/dedicated-ip.md)
-- [Привязанные IP-адреса](/private-dns/connect-devices/other-options/linked-ip.md)
+ - [Выделенные IP-адреса](/private-dns/connect-devices/other-options/dedicated-ip.md)
+ - [Привязанные IP-адреса](/private-dns/connect-devices/other-options/linked-ip.md)

@@ -14,17 +14,17 @@ sidebar_position: 5
 1. Откройте _Панель управления_ и выберите необходимый сервер.
 2. Go to _Advanced_.
 3. Включите опцию для автоматического подключения устройств.
-    ![Connect devices automatically \*mobile_border](https://cdn.adtidy.org/content/kb/dns/private/new_dns/connect/automatically.png)
+   ![Connect devices automatically \*mobile_border](https://cdn.adtidy.org/content/kb/dns/private/new_dns/connect/automatically.png)
 
 Теперь вы можете автоматически подключить ваше устройство к серверу, создав специальный адрес, включающий имя устройства, тип устройства и текущий идентификатор сервера. Давайте рассмотрим, как выглядят эти адреса и правила их создания.
 
 ### Примеры адресов для автоматического подключения
 
-- `tls://adr-{Your_Server_ID}-AdGuard-Test-Device.d.adguard-dns.com` — это автоматически создаст устройство `Android` с протоколом `DNS-over-TLS` и именем `AdGuard Test Device`
+ - `tls://adr-{Your_Server_ID}-AdGuard-Test-Device.d.adguard-dns.com` — это автоматически создаст устройство `Android` с протоколом `DNS-over-TLS` и именем `AdGuard Test Device`
 
-- `https://d.adguard-dns.com/dns-query/win-{Your_Server_ID}-John-Doe` — это автоматически создаст устройство `Windows` с протоколом `DNS-over-HTTPS` и именем `John Doe`
+ - `https://d.adguard-dns.com/dns-query/win-{Your_Server_ID}-John-Doe` — это автоматически создаст устройство `Windows` с протоколом `DNS-over-HTTPS` и именем `John Doe`
 
-- `quic://ios-73f78a1d-Mary-Sue.d.adguard-dns.com` — это автоматически создаст устройство `iOS` с протоколом `DNS-over-QUIC` и именем `Mary Sue`
+ - `quic://ios-73f78a1d-Mary-Sue.d.adguard-dns.com` — это автоматически создаст устройство `iOS` с протоколом `DNS-over-QUIC` и именем `Mary Sue`
 
 ### Как назвать устройство
 
@@ -38,15 +38,15 @@ sidebar_position: 5
 
 **Тип устройства**: используйте следующие сокращения:
 
-- Windows — `win`
-- macOS — `mac`
-- Android — `adr`
-- iOS — `ios`
-- Linux — `lnx`
-- Роутер — `rtr`
-- Умный телевизор — `stv`
-- Игровая консоль — `gam`
-- Другое — `otr`
+ - Windows — `win`
+ - macOS — `mac`
+ - Android — `adr`
+ - iOS — `ios`
+ - Linux — `lnx`
+ - Роутер — `rtr`
+ - Умный телевизор — `stv`
+ - Игровая консоль — `gam`
+ - Другое — `otr`
 
 ## Генератор ссылок
 
@@ -55,5 +55,5 @@ sidebar_position: 5
 1. Перейдите в _Серверы_ → _Настройки сервера_ → _Устройства_ → _Автоматическое подключение устройств_ и нажмите _Генератор ссылок и инструкции_.
 2. Выберите протокол, который хотите использовать, а также имя и тип устройства.
 3. Нажмите _Сгенерировать ссылку_.
-    ![Сгенерировать ссылку \*mobile_border](https://cdn.adtidy.org/content/kb/dns/private/new_dns/connect/automatically_step7.png)
+   ![Сгенерировать ссылку \*mobile_border](https://cdn.adtidy.org/content/kb/dns/private/new_dns/connect/automatically_step7.png)
 4. Вы успешно сгенерировали ссылку, теперь скопируйте адрес сервера и используйте его в одном из [приложений AdGuard](https://adguard.com/welcome.html)

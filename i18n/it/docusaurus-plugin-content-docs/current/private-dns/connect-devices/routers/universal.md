@@ -14,11 +14,11 @@ Ecco alcune istruzioni generali per impostare AdGuard DNS privato sui router. Yo
 
 2. Enter the router’s password.
 
-    :::note Importante
+   :::note Importante
 
-    Se la password è sconosciuta, puoi spesso reimpostarla premendo un pulsante sul router; verrà anche reimpostato il router alle impostazioni di fabbrica. Alcuni modelli hanno un'applicazione di gestione dedicata, che dovrebbe essere già installata sul tuo computer.
+   Se la password è sconosciuta, puoi spesso reimpostarla premendo un pulsante sul router; verrà anche reimpostato il router alle impostazioni di fabbrica. Alcuni modelli hanno un'applicazione di gestione dedicata, che dovrebbe essere già installata sul tuo computer.
 
-    :::
+   :::
 
 3. Find where DNS settings are located in the router’s admin console. Change the listed DNS addresses to the following addresses:
     - IPv4: `94.140.14.49` e `94.140.14.59`
@@ -28,5 +28,5 @@ Ecco alcune istruzioni generali per impostare AdGuard DNS privato sui router. Yo
 
 5. Collega il tuo IP (o il tuo IP dedicato se hai un abbonamento Team).
 
-- [Dedicated IPs](/private-dns/connect-devices/other-options/dedicated-ip.md)
-- [Linked IPs](/private-dns/connect-devices/other-options/linked-ip.md)
+ - [Dedicated IPs](/private-dns/connect-devices/other-options/dedicated-ip.md)
+ - [Linked IPs](/private-dns/connect-devices/other-options/linked-ip.md)

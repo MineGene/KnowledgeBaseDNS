@@ -14,17 +14,17 @@ Puoi creare un collegamento e utilizzarlo nelle impostazioni del dispositivo. Il
 1. Apri il _Cruscotto_ e seleziona il server richiesto.
 2. Go to _Advanced_.
 3. Abilita l'opzione per connettere i dispositivi automaticamente.
-    ![Connect devices automatically \*mobile_border](https://cdn.adtidy.org/content/kb/dns/private/new_dns/connect/automatically.png)
+   ![Connect devices automatically \*mobile_border](https://cdn.adtidy.org/content/kb/dns/private/new_dns/connect/automatically.png)
 
 Ora puoi connettere automaticamente il tuo dispositivo al server creando un indirizzo speciale che include il nome del dispositivo, il tipo di dispositivo e l'ID del server corrente. Esploriamo come appaiono questi indirizzi e le regole per crearli.
 
 ### Esempi di indirizzi di connessione automatica
 
-- `tls://adr-{Your_Server_ID}-AdGuard-Test-Device.d.adguard-dns.com` — questo creerà automaticamente un dispositivo `Android` con il protocollo `DNS-over-TLS` chiamato `AdGuard Test Device`
+ - `tls://adr-{Your_Server_ID}-AdGuard-Test-Device.d.adguard-dns.com` — questo creerà automaticamente un dispositivo `Android` con il protocollo `DNS-over-TLS` chiamato `AdGuard Test Device`
 
-- `https://d.adguard-dns.com/dns-query/win-{Your_Server_ID}-John-Doe` — questo creerà automaticamente un dispositivo `Windows` con il protocollo `DNS-over-HTTPS` chiamato `John Doe`
+ - `https://d.adguard-dns.com/dns-query/win-{Your_Server_ID}-John-Doe` — questo creerà automaticamente un dispositivo `Windows` con il protocollo `DNS-over-HTTPS` chiamato `John Doe`
 
-- `quic://ios-73f78a1d-Mary-Sue.d.adguard-dns.com` — questo creerà automaticamente un dispositivo `iOS` con il protocollo `DNS-over-QUIC` chiamato `Mary Sue`
+ - `quic://ios-73f78a1d-Mary-Sue.d.adguard-dns.com` — questo creerà automaticamente un dispositivo `iOS` con il protocollo `DNS-over-QUIC` chiamato `Mary Sue`
 
 ### Convenzioni di denominazione
 
@@ -38,15 +38,15 @@ Quando crei dispositivi manualmente, tieni presente che ci sono restrizioni rela
 
 **Tipo di dispositivo**: Usa le seguenti abbreviazioni:
 
-- Windows — `win`
-- macOS — `mac`
-- Android — `adr`
-- iOS — `ios`
-- Linux — `lnx`
-- Router — `rtr`
-- Smart TV — `stv`
-- Console di gioco — `gam`
-- Altro — `otr`
+ - Windows — `win`
+ - macOS — `mac`
+ - Android — `adr`
+ - iOS — `ios`
+ - Linux — `lnx`
+ - Router — `rtr`
+ - Smart TV — `stv`
+ - Console di gioco — `gam`
+ - Altro — `otr`
 
 ## Generatore collegamenti
 
@@ -55,5 +55,5 @@ Abbiamo aggiunto un modello che genera un collegamento per il tipo di dispositiv
 1. Vai a _Server_ → _Impostazioni server_ → _Dispositivi_ → _Connetti dispositivi automaticamente_ e clicca su _Generatore collegamenti e istruzioni_.
 2. Seleziona il protocollo che desideri usare, il nome del dispositivo e il tipo di dispositivo.
 3. Clicca su _Genera collegamento_.
-    ![Genera collegamento \*mobile_border](https://cdn.adtidy.org/content/kb/dns/private/new_dns/connect/automatically_step7.png)
+   ![Genera collegamento \*mobile_border](https://cdn.adtidy.org/content/kb/dns/private/new_dns/connect/automatically_step7.png)
 4. Hai generato correttamente il collegamento, ora copia l'indirizzo del server e usalo in una delle [app AdGuard](https://adguard.com/welcome.html)

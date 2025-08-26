@@ -37,25 +37,25 @@ AdGuard DNS Client всё ещё находится в стадии бета-т�
 
 1. Скачайте и распакуйте архив `.tar.gz` или `.zip` [со страницы релизов][releases].
 
-  :::caution
+   :::caution
 
-  On macOS, it’s crucial that globally installed daemons are owned by `root` (see the [`launchd` documentation][launchd-requirements]), so the `AdGuardDNSClient` executable must be placed in the `/Applications/` directory or its subdirectory.
+   On macOS, it’s crucial that globally installed daemons are owned by `root` (see the [`launchd` documentation][launchd-requirements]), so the `AdGuardDNSClient` executable must be placed in the `/Applications/` directory or its subdirectory.
 
-  :::
+   :::
 
 2. Установите его как службу, выполнив:
 
-  ```sh
-  ./AdGuardDNSClient -s install -v
-  ```
+   ```sh
+   ./AdGuardDNSClient -s install -v
+   ```
 
 3. Отредактируйте файл конфигурации `config.yaml`.
 
 4. Запустите службу:
 
-  ```sh
-  ./AdGuardDNSClient -s start -v
-  ```
+   ```sh
+   ./AdGuardDNSClient -s start -v
+   ```
 
 Чтобы убедиться, что он работает, используйте любую утилиту проверки DNS. Например, с помощью `nslookup`:
 

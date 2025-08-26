@@ -22,7 +22,7 @@ sidebar_position: 3
     - `94.140.14.49` и `94.140.14.59`
 9. В поле «Порт TLS» введите 853.
 10. В поле «Имя хоста TLS» введите адрес сервера Private AdGuard DNS:
-    - `{Your_Device_ID}.d.adguard-dns.com`
+     - `{Your_Device_ID}.d.adguard-dns.com`
 11. Прокрутите страницу вниз и нажмите «Применить».
 
 ## Через панель управления роутера

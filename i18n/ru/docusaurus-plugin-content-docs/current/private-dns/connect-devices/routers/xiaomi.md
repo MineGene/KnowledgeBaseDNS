@@ -21,5 +21,5 @@ Unfortunately, it doesn’t support encrypted DNS, but it’s great for setting 
 6. Сохраните настройки.
 7. Привяжите свой IP (или ваш выделенный IP, если у вас есть подписка Team).
 
-- [Выделенные IP-адреса](/private-dns/connect-devices/other-options/dedicated-ip.md)
-- [Привязанные IP-адреса](/private-dns/connect-devices/other-options/linked-ip.md)
+ - [Выделенные IP-адреса](/private-dns/connect-devices/other-options/dedicated-ip.md)
+ - [Привязанные IP-адреса](/private-dns/connect-devices/other-options/linked-ip.md)

@@ -28,7 +28,7 @@ Aşağıdaki talimatlar, cihaza **IP adresini bağlamak** aracılığıyla nası
 3. _DNS sunucu adreslerini kullan_ öğesine gidin.
 4. _Düz DNS sunucu adresleri_ öğesini açın ve bağlı IP'yi bağlayın.
 
-    ![Bağlı IP \*border](https://cdn.adtidy.org/content/kb/dns/private/new_dns/connect/linked_step4.png)
+   ![Bağlı IP \*border](https://cdn.adtidy.org/content/kb/dns/private/new_dns/connect/linked_step4.png)
 
 ## Dinamik DNS: Neden yararlıdır
 
@@ -52,7 +52,7 @@ Bu şekilde, ilişkili IP adresini her değiştiğinde elle güncellemeniz gerek
     - DDNS veya _Dinamik DNS_ bölümünü bulun
     - Oraya gidin ve ayarların gerçekten desteklendiğini doğrulayın. _Bu, neye benzeyebileceğine dair sadece bir örnektir, ayarlar yönlendiricinize bağlı olarak değişebilir_
 
-    ![DDNS destekli \*mobile_border](https://cdn.adtidy.org/content/kb/dns/private/new_dns/connect/dynamic_dns.png)
+   ![DDNS destekli \*mobile_border](https://cdn.adtidy.org/content/kb/dns/private/new_dns/connect/dynamic_dns.png)
 
 2. Alan adınızı [DynDNS](https://dyn.com/remote-access/), [NO-IP](https://www.noip.com/) veya tercih ettiğiniz başka bir DDNS sağlayıcısı gibi popüler bir hizmetle tescil ettirin.
 
@@ -62,7 +62,7 @@ Bu şekilde, ilişkili IP adresini her değiştiğinde elle güncellemeniz gerek
 
 5. Daha önce tescil ettirdiğiniz alan adını girin ve _DDNS'i yapılandır_ öğesine tıklayın.
 
-    ![DDNS'i yapılandır \*border](https://cdn.adtidy.org/content/kb/dns/private/new_dns/connect/dns_supported.png)
+   ![DDNS'i yapılandır \*border](https://cdn.adtidy.org/content/kb/dns/private/new_dns/connect/dns_supported.png)
 
 All done, you’ve successfully set up DDNS!
 
@@ -91,14 +91,14 @@ On macOS and Linux, the easiest way is to use `cron`:
     - Terminalde `crontab -e` komutunu çalıştırın.
 2. Bir görev ekleyin:
     - Şu satırı ekleyin:
-        `/5 * * * * curl https://linkip.adguard-dns.com/linkip/{ServerID}/{UniqueKey}`
+       `/5 * * * * curl https://linkip.adguard-dns.com/linkip/{ServerID}/{UniqueKey}`
     - Bu işlem her 5 dakikada bir çalışır
 3. Save crontab.
 
 :::note Önemli
 
-- Make sure you have `curl` installed on macOS and Linux.
-- Ayarlardan adresi kopyalamayı ve `ServerID` ile `UniqueKey` ifadelerini değiştirmeyi unutmayın.
-- Daha karmaşık mantık veya sorgu sonuçlarının işlenmesi gerekiyorsa, bir görev zamanlayıcı veya cron ile birlikte betikler (örn. Bash, Python) kullanmayı göz önünde bulundurun.
+ - Make sure you have `curl` installed on macOS and Linux.
+ - Ayarlardan adresi kopyalamayı ve `ServerID` ile `UniqueKey` ifadelerini değiştirmeyi unutmayın.
+ - Daha karmaşık mantık veya sorgu sonuçlarının işlenmesi gerekiyorsa, bir görev zamanlayıcı veya cron ile birlikte betikler (örn. Bash, Python) kullanmayı göz önünde bulundurun.
 
 :::

@@ -22,7 +22,7 @@ Se necessario: Configura DNS-over-TLS su ASUS, installa il [firmware ASUS Merlin
     - IPv4: `94.140.14.49` e `94.140.14.59`
 9. Per _Porta TLS_, inserisci 853.
 10. Nel campo _TLS Hostname_, inserisci l'indirizzo del server AdGuard DNS privato:
-    - `{Your_Device_ID}.d.adguard-dns.com`
+     - `{Your_Device_ID}.d.adguard-dns.com`
 11. Scorri fino alla fine della pagina e premi _Applica_.
 
 ## Utilizza il pannello di amministrazione del tuo router

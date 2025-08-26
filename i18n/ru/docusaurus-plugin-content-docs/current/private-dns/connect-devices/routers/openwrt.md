@@ -7,14 +7,14 @@ sidebar_position: 7
 
 ## Настройте DNS-over-HTTPS
 
-- **Инструкции командной строки**. Установите необходимые пакеты. DNS-шифрование должно быть включено автоматически.
+ - **Инструкции командной строки**. Установите необходимые пакеты. DNS-шифрование должно быть включено автоматически.
 
     ```# Install packages
     1. opkg update
     2. opkg install https-dns-proxy
 
     ```
-- **Веб-интерфейс**. Если вы хотите управлять настройками через веб-интерфейс, установите необходимые пакеты.
+ - **Веб-интерфейс**. Если вы хотите управлять настройками через веб-интерфейс, установите необходимые пакеты.
 
     ```# Install packages
     1. opkg update
@@ -24,7 +24,7 @@ sidebar_position: 7
 
 Перейдите в раздел «LuCI» → «Сервисы» → «HTTPS DNS Proxy» для настройки https-dns-proxy.
 
-- **Настройте провайдер DoH**. https-dns-proxy настроен с Google DNS и Cloudflare DNS по умолчанию. Вам необходимо изменить его на AdGuard DoH. Укажите несколько DNS преобразователей (DNS resolvers) для повышения отказоустойчивости.
+ - **Настройте провайдер DoH**. https-dns-proxy настроен с Google DNS и Cloudflare DNS по умолчанию. Вам необходимо изменить его на AdGuard DoH. Укажите несколько DNS преобразователей (DNS resolvers) для повышения отказоустойчивости.
 
     ```# Configure DoH provider
     1. while uci -q delete https-dns-proxy.@https-dns-proxy[0]; do :; done
@@ -39,7 +39,7 @@ sidebar_position: 7
 
 ## Настройте DNS-over-TLS
 
-- **Инструкции командной строки**. [Отключите](https://openwrt.org/docs/guide-user/base-system/dhcp_configuration#disabling_dns_role) роль DNS в Dnsmasq или удалите ее полностью, при необходимости [заменив](https://openwrt.org/docs/guide-user/base-system/dhcp_configuration#replacing_dnsmasq_with_odhcpd_and_unbound) роль DHCP с odhcpd.
+ - **Инструкции командной строки**. [Отключите](https://openwrt.org/docs/guide-user/base-system/dhcp_configuration#disabling_dns_role) роль DNS в Dnsmasq или удалите ее полностью, при необходимости [заменив](https://openwrt.org/docs/guide-user/base-system/dhcp_configuration#replacing_dnsmasq_with_odhcpd_and_unbound) роль DHCP с odhcpd.
 
     ```# Install packages
     1. opkg update
@@ -48,7 +48,7 @@ sidebar_position: 7
 
 Клиенты локальной сети и локальная система должны использовать Unbound в качестве основного резольвера при условии, что Dnsmasq отключён.
 
-- **Веб-интерфейс**. Если вы хотите управлять настройками через веб-интерфейс, установите необходимые пакеты.
+ - **Веб-интерфейс**. Если вы хотите управлять настройками через веб-интерфейс, установите необходимые пакеты.
 
     ```# Install packages
     1. opkg update
@@ -58,7 +58,7 @@ sidebar_position: 7
 
 Перейдите в «LuCI» → «Сервисы» → «Рекурсивный DNS», чтобы настроить Unbound.
 
-- **Настройка DNS-over-TLS**.
+ - **Настройка DNS-over-TLS**.
 
     ```1. uci add unbound zone
     2. uci set unbound.@zone[-1].enabled="1"
@@ -91,5 +91,5 @@ sidebar_position: 7
 8. Сохраните настройки.
 9. Привяжите свой IP (или ваш выделенный IP, если у вас есть подписка Team).
 
-- [Выделенные IP-адреса](/private-dns/connect-devices/other-options/dedicated-ip.md)
-- [Привязанные IP-адреса](/private-dns/connect-devices/other-options/linked-ip.md)
+ - [Выделенные IP-адреса](/private-dns/connect-devices/other-options/dedicated-ip.md)
+ - [Привязанные IP-адреса](/private-dns/connect-devices/other-options/linked-ip.md)
